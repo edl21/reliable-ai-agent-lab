@@ -1,0 +1,241 @@
+{
+  "task1_alias_reference": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task1/alias_reference_task1_alias_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task1/alias_reference_task1_alias_01.jsonl"
+  },
+  "task1_before_after": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task1/before_after_before_task1_before_after_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task1/before_after_before_task1_before_after_01.jsonl"
+  },
+  "task1_contradiction": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task1/contradiction_task1_contradiction_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task1/contradiction_task1_contradiction_01.jsonl"
+  },
+  "task1_malformed_max_chapter": {
+    "complete": true,
+    "event_count": 1,
+    "evidence_path": "evidence/traces/task1/malformed_max_chapter_malformed_04.jsonl",
+    "operations": [
+      "validation"
+    ],
+    "source": "traces/task1/malformed_max_chapter_malformed_04.jsonl"
+  },
+  "task1_single_chapter": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task1/single_chapter_task1_single_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task1/single_chapter_task1_single_01.jsonl"
+  },
+  "task1_two_chapter": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task1/two_chapter_task1_two_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task1/two_chapter_task1_two_01.jsonl"
+  },
+  "task1_unsupported": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task1/unsupported_task1_unsupported_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task1/unsupported_task1_unsupported_01.jsonl"
+  },
+  "task2_direct_guards": {
+    "complete": true,
+    "event_count": 1,
+    "evidence_path": "evidence/traces/task2/direct_forbidden_fetch.jsonl",
+    "operations": [
+      "tool_call"
+    ],
+    "source": "traces/task2/direct_forbidden_fetch.jsonl"
+  },
+  "task2_duplicate_save": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task2/duplicate_save_task2_duplicate_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task2/duplicate_save_task2_duplicate_01.jsonl"
+  },
+  "task2_inert_tool_call_syntax": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task2/inert_tool_call_syntax_task2_inert_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task2/inert_tool_call_syntax_task2_inert_01.jsonl"
+  },
+  "task2_injection": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task2/injection_task2_injection_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task2/injection_task2_injection_01.jsonl"
+  },
+  "task2_invalid_args": {
+    "complete": true,
+    "event_count": 8,
+    "evidence_path": "evidence/traces/task2/invalid_args_task2_invalid_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task2/invalid_args_task2_invalid_01.jsonl"
+  },
+  "task2_reject": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task2/reject_task2_reject_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task2/reject_task2_reject_01.jsonl"
+  },
+  "task2_success": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task2/success_task2_success_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task2/success_task2_success_01.jsonl"
+  },
+  "task3_R1": {
+    "complete": true,
+    "event_count": 5,
+    "evidence_path": "evidence/traces/task3/R1_R1_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task3/R1_R1_01.jsonl"
+  },
+  "task3_R2": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task3/R2_R2_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval"
+    ],
+    "source": "traces/task3/R2_R2_01.jsonl"
+  },
+  "task3_R3": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task3/R3_guide_R3_guide_01.jsonl",
+    "operations": [
+      "model_call",
+      "tool_call"
+    ],
+    "source": "traces/task3/R3_guide_R3_guide_01.jsonl"
+  },
+  "task3_R4_3000": {
+    "complete": true,
+    "event_count": 5,
+    "evidence_path": "evidence/traces/task3/R4_3000_R4_3000_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task3/R4_3000_R4_3000_01.jsonl"
+  },
+  "task3_R4_4096": {
+    "complete": true,
+    "event_count": 5,
+    "evidence_path": "evidence/traces/task3/R4_4096_R4_4096_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task3/R4_4096_R4_4096_01.jsonl"
+  },
+  "task3_R5": {
+    "complete": true,
+    "event_count": 6,
+    "evidence_path": "evidence/traces/task3/R5_R5_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval",
+      "validation"
+    ],
+    "source": "traces/task3/R5_R5_01.jsonl"
+  },
+  "task3_R6": {
+    "complete": true,
+    "event_count": 3,
+    "evidence_path": "evidence/traces/task3/R6_R6_01.jsonl",
+    "operations": [
+      "limit_check",
+      "model_call",
+      "retrieval"
+    ],
+    "source": "traces/task3/R6_R6_01.jsonl"
+  },
+  "task4_repair": {
+    "complete": true,
+    "event_count": 4,
+    "evidence_path": "evidence/traces/task4/repair_8acfc88e9dda40cc86ff17d1ef9a622c.jsonl",
+    "operations": [
+      "repair_step"
+    ],
+    "source": "repair/traces/repair_8acfc88e9dda40cc86ff17d1ef9a622c.jsonl"
+  }
+}

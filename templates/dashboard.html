@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reliable AI Agent Lab</title>
+<style>
+:root {
+  color-scheme: light;
+  --ink:#172033; --muted:#64748b; --line:#dbe3ee; --panel:#fff;
+  --bg:#f4f7fb; --blue:#2457d6; --blue-dark:#173d9a; --green:#157347;
+  --amber:#9a6700; --red:#b42318; --code:#111827;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 system-ui,-apple-system,sans-serif; }
+main { max-width:1180px; margin:0 auto; padding:36px 20px 64px; }
+h1 { margin:0; font-size:clamp(32px,5vw,52px); line-height:1.05; letter-spacing:-.045em; }
+h2 { margin:32px 0 12px; font-size:21px; }
+h3 { margin:0 0 6px; font-size:16px; }
+p { margin:0; }
+.hero { display:grid; grid-template-columns:1.7fr 1fr; gap:28px; align-items:end; margin-bottom:28px; }
+.eyebrow { color:var(--blue); font-size:13px; font-weight:750; letter-spacing:.09em; text-transform:uppercase; margin-bottom:10px; }
+.subtitle { color:var(--muted); font-size:17px; max-width:720px; margin-top:13px; }
+.hero-meta { background:#e8efff; border:1px solid #c8d7ff; border-radius:14px; padding:16px; }
+.mode { display:inline-flex; align-items:center; gap:7px; font-weight:700; }
+.dot { width:9px; height:9px; border-radius:99px; background:var(--amber); }
+.mode.live .dot { background:var(--green); }
+.small { color:var(--muted); font-size:13px; margin-top:5px; }
+.cards,.capabilities { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+.card,.capability,.panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:17px; box-shadow:0 1px 2px #0f172a0a; }
+.card strong { display:block; font-size:27px; }
+.card span,.capability p { color:var(--muted); }
+.capability { min-height:150px; display:flex; flex-direction:column; }
+.capability p { flex:1; }
+button { border:0; border-radius:9px; background:var(--blue); color:white; cursor:pointer; font:inherit; font-weight:650; padding:10px 14px; }
+button:hover { background:var(--blue-dark); }
+button.secondary { background:#e7ecf4; color:var(--ink); }
+button:disabled { cursor:wait; opacity:.55; }
+label { display:block; font-weight:700; margin-bottom:6px; }
+input,textarea,select { width:100%; border:1px solid #cbd5e1; border-radius:9px; background:white; color:var(--ink); font:inherit; padding:10px 11px; }
+textarea { min-height:82px; resize:vertical; }
+.playground { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.field-row { display:grid; grid-template-columns:1fr 140px; gap:10px; margin-bottom:10px; }
+.actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+.status { color:var(--muted); min-height:24px; margin:10px 0; }
+.output { background:var(--code); color:#dbeafe; border-radius:10px; padding:13px; min-height:130px; overflow:auto; white-space:pre-wrap; word-break:break-word; margin:12px 0 0; }
+.lists { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.filter { margin-bottom:10px; }
+.scroll { max-height:350px; overflow:auto; border-top:1px solid var(--line); }
+.row { display:flex; justify-content:space-between; gap:10px; align-items:center; padding:9px 2px; border-bottom:1px solid var(--line); }
+.row small { color:var(--muted); }
+.row button { padding:5px 8px; font-size:13px; }
+.toolbar { display:flex; flex-wrap:wrap; gap:8px; }
+dialog { border:0; border-radius:14px; width:min(900px,92vw); padding:0; }
+dialog::backdrop { background:#0f172a88; }
+.dialog-head { display:flex; justify-content:space-between; padding:16px; border-bottom:1px solid var(--line); }
+.dialog-body { padding:16px; max-height:70vh; overflow:auto; }
+details { border:1px solid var(--line); border-radius:8px; margin:8px 0; padding:8px; }
+pre { margin:0; }
+@media(max-width:850px) {
+  .hero,.playground,.lists { grid-template-columns:1fr; }
+  .cards,.capabilities { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:520px) {
+  .cards,.capabilities,.field-row { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Local agent reliability workbench</p>
+      <h1>Reliable AI Agent Lab</h1>
+      <p class="subtitle">Explore grounded retrieval, verifiable citations, human-approved tools, recovery from model failures, and constrained automated repair.</p>
+    </div>
+    <div class="hero-meta">
+      <div class="mode" id="mode"><span class="dot"></span><span id="modeLabel">Loading mode…</span></div>
+      <p class="small" id="corpusLabel">Loading corpus details…</p>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="card"><strong id="chapterCount">—</strong><span>indexed sections</span></div>
+    <div class="card"><strong id="traceCount">—</strong><span>generated traces</span></div>
+    <div class="card"><strong>8k</strong><span>evidence-token ceiling</span></div>
+    <div class="card"><strong>4</strong><span>reliability capabilities</span></div>
+  </section>
+
+  <h2>Try grounded question answering</h2>
+  <section class="playground">
+    <div class="panel">
+      <div class="field-row">
+        <div><label for="question">Question</label><textarea id="question">Who is Ishmael, and why does he decide to go to sea?</textarea></div>
+        <div><label for="maxChapter">Read through</label><input id="maxChapter" type="number" min="1" value="5"></div>
+      </div>
+      <div class="actions">
+        <button id="askButton" type="button">Ask with citations</button>
+        <button class="secondary" id="sampleQuestion" type="button">Another example</button>
+      </div>
+      <p class="small">The chapter limit is enforced before retrieval and checked again before citations are returned.</p>
+    </div>
+    <div class="panel">
+      <h3>Answer and evidence</h3>
+      <pre class="output" id="answerOutput">Run a question to inspect the structured answer, citations, metrics, and stub/live-model status.</pre>
+    </div>
+  </section>
+
+  <h2>Explore the reliability layers</h2>
+  <section class="capabilities">
+    <article class="capability"><h3>Grounded Q&amp;A</h3><p>Chapter-filtered vector retrieval, strict evidence budgets, inline citations, and post-generation verification.</p><button data-run="grounding" type="button">Run grounding checks</button></article>
+    <article class="capability"><h3>Human-approved tools</h3><p>A model can prepare a cited guide, but a separate approval boundary controls the final write.</p><button data-run="approval" type="button">Run approval checks</button></article>
+    <article class="capability"><h3>Resilient execution</h3><p>Bounded retries handle rate limits, context overflow, malformed output, and explicit configuration errors.</p><button data-run="recovery" type="button">Run recovery checks</button></article>
+    <article class="capability"><h3>Constrained repair</h3><p>An allowlisted repair loop validates a proposed patch in an isolated, immutable-check sandbox.</p><button data-run="repair" type="button">Run repair check</button></article>
+  </section>
+
+  <section class="panel" style="margin-top:12px">
+    <div class="toolbar">
+      <button class="secondary" id="refresh" type="button">Refresh evidence</button>
+      <button type="button" data-run="all">Run complete local suite</button>
+      <button class="secondary" type="button" data-run="diagnostics">Run diagnostics</button>
+    </div>
+    <div class="status" id="status">Loading local evidence…</div>
+    <pre class="output" id="suiteOutput">Check output appears here.</pre>
+  </section>
+
+  <div class="lists">
+    <section><h2>Corpus map</h2><div class="panel"><input class="filter" id="chapterFilter" placeholder="Search sections"><div class="scroll" id="chapters"></div></div></section>
+    <section><h2>Execution traces</h2><div class="panel"><input class="filter" id="traceFilter" placeholder="Search traces"><div class="scroll" id="traces"></div></div></section>
+  </div>
+</main>
+
+<dialog id="traceDialog"><div class="dialog-head"><strong id="dialogTitle">Trace</strong><button class="secondary" id="closeDialog" type="button">Close</button></div><div class="dialog-body" id="dialogBody"></div></dialog>
+<script>
+let state = {chapters:[], traces:[], corpus:null, model_mode:'stub'};
+const $ = id => document.getElementById(id);
+const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const samples = [
+  ['Who is Ishmael, and why does he decide to go to sea?', 5],
+  ['How do Ishmael and Queequeg first meet?', 4],
+  ['What does Father Mapple teach in his sermon?', 10],
+  ['What warning does Elijah give about the Pequod?', 20]
+];
+let sampleIndex = 0;
+
+function render() {
+  $('chapterCount').textContent = state.chapters.length;
+  $('traceCount').textContent = state.traces.length;
+  const live = state.model_mode === 'live';
+  $('mode').classList.toggle('live', live);
+  $('modeLabel').textContent = live ? 'Live model mode' : 'Deterministic stub mode';
+  $('corpusLabel').textContent = state.corpus
+    ? `${state.corpus.title} · ${state.corpus.author}`
+    : 'Corpus not built yet — run the setup command.';
+  $('maxChapter').max = Math.max(1, state.chapters.length);
+  const cq = $('chapterFilter').value.toLowerCase();
+  $('chapters').innerHTML = state.chapters.filter(c =>
+    `${c.index} ${c.original_label} ${c.chapter_title}`.toLowerCase().includes(cq)
+  ).map(c => `<div class="row"><span><b>${c.index}</b> ${esc(c.chapter_title || c.original_label)}</span><small>PDF ${c.pdf_page_start}–${c.pdf_page_end}</small></div>`).join('') || '<div class="row">No matching sections.</div>';
+  const tq = $('traceFilter').value.toLowerCase();
+  $('traces').innerHTML = state.traces.filter(t => t.toLowerCase().includes(tq))
+    .map(t => `<div class="row"><small>${esc(t)}</small><button class="secondary" data-trace="${esc(t)}" type="button">View</button></div>`).join('') || '<div class="row">No matching traces yet.</div>';
+  document.querySelectorAll('[data-trace]').forEach(b => b.onclick = () => viewTrace(b.dataset.trace));
+}
+
+async function loadData() {
+  $('status').textContent = 'Refreshing local evidence…';
+  try {
+    const response = await fetch('/dashboard/data');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state = await response.json();
+    render();
+    $('status').textContent = `Ready · ${state.traces.length} traces available`;
+  } catch (error) {
+    $('status').textContent = `Refresh failed: ${error}`;
+  }
+}
+
+async function askQuestion() {
+  $('askButton').disabled = true;
+  $('answerOutput').textContent = 'Retrieving evidence and validating the response…';
+  const requestId = `local_${Date.now()}`;
+  try {
+    const response = await fetch('/answer?trace_check_name=workbench', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        request_id:requestId,
+        question:$('question').value,
+        max_chapter:Number($('maxChapter').value)
+      })
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(JSON.stringify(data, null, 2));
+    $('answerOutput').textContent = JSON.stringify(data, null, 2);
+    await loadData();
+  } catch (error) {
+    $('answerOutput').textContent = String(error);
+  } finally {
+    $('askButton').disabled = false;
+  }
+}
+
+async function runSuite(name) {
+  const buttons = [...document.querySelectorAll('button')];
+  buttons.forEach(button => button.disabled = true);
+  $('status').textContent = `Running ${name}… this may take a few minutes.`;
+  $('suiteOutput').textContent = 'Running…';
+  try {
+    const response = await fetch('/dashboard/run/' + name, {method:'POST'});
+    const data = await response.json();
+    if (!response.ok) throw new Error(JSON.stringify(data));
+    $('suiteOutput').textContent = (data.stdout || '') + (data.stderr || '');
+    $('status').textContent = data.return_code === 0 ? `${name} passed` : `${name} failed`;
+    await loadData();
+  } catch (error) {
+    $('status').textContent = `Run failed: ${error}`;
+    $('suiteOutput').textContent = String(error);
+  } finally {
+    buttons.forEach(button => button.disabled = false);
+  }
+}
+
+async function viewTrace(path) {
+  $('dialogTitle').textContent = path;
+  $('dialogBody').textContent = 'Loading trace…';
+  $('traceDialog').showModal();
+  try {
+    const response = await fetch('/dashboard/trace?path=' + encodeURIComponent(path));
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    $('dialogBody').innerHTML = data.events.map((event,index) =>
+      `<details><summary>${index+1}. ${esc(event.operation)} · ${esc(event.outcome)}</summary><pre>${esc(JSON.stringify(event,null,2))}</pre></details>`
+    ).join('');
+  } catch (error) {
+    $('dialogBody').textContent = `Trace load failed: ${error}`;
+  }
+}
+
+$('askButton').onclick = askQuestion;
+$('sampleQuestion').onclick = () => {
+  sampleIndex = (sampleIndex + 1) % samples.length;
+  [$('question').value, $('maxChapter').value] = samples[sampleIndex];
+};
+$('refresh').onclick = loadData;
+$('closeDialog').onclick = () => $('traceDialog').close();
+$('chapterFilter').oninput = render;
+$('traceFilter').oninput = render;
+document.querySelectorAll('[data-run]').forEach(button => button.onclick = () => runSuite(button.dataset.run));
+loadData();
+</script>
+</body>
+</html>

@@ -1,0 +1,1090 @@
+[
+  {
+    "index": 1,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 1",
+    "chapter_title": "Loomings",
+    "pdf_page_start": 13,
+    "pdf_page_end": 15
+  },
+  {
+    "index": 2,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 2",
+    "chapter_title": "The Carpet-Bag",
+    "pdf_page_start": 16,
+    "pdf_page_end": 17
+  },
+  {
+    "index": 3,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 3",
+    "chapter_title": "The Spouter-Inn",
+    "pdf_page_start": 18,
+    "pdf_page_end": 24
+  },
+  {
+    "index": 4,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 4",
+    "chapter_title": "The Counterpane",
+    "pdf_page_start": 25,
+    "pdf_page_end": 26
+  },
+  {
+    "index": 5,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 5",
+    "chapter_title": "Breakfast",
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  {
+    "index": 6,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 6",
+    "chapter_title": "The Street",
+    "pdf_page_start": 28,
+    "pdf_page_end": 29
+  },
+  {
+    "index": 7,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 7",
+    "chapter_title": "The Chapel",
+    "pdf_page_start": 30,
+    "pdf_page_end": 31
+  },
+  {
+    "index": 8,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 8",
+    "chapter_title": "The Pulpit",
+    "pdf_page_start": 32,
+    "pdf_page_end": 33
+  },
+  {
+    "index": 9,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 9",
+    "chapter_title": "The Sermon",
+    "pdf_page_start": 34,
+    "pdf_page_end": 37
+  },
+  {
+    "index": 10,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 10",
+    "chapter_title": "A",
+    "pdf_page_start": 38,
+    "pdf_page_end": 39
+  },
+  {
+    "index": 11,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 11",
+    "chapter_title": "Nightgown",
+    "pdf_page_start": 40,
+    "pdf_page_end": 40
+  },
+  {
+    "index": 12,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 12",
+    "chapter_title": "Biographical",
+    "pdf_page_start": 41,
+    "pdf_page_end": 42
+  },
+  {
+    "index": 13,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 13",
+    "chapter_title": "Wheelbarrow",
+    "pdf_page_start": 43,
+    "pdf_page_end": 44
+  },
+  {
+    "index": 14,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 14",
+    "chapter_title": "Nantucket",
+    "pdf_page_start": 45,
+    "pdf_page_end": 45
+  },
+  {
+    "index": 15,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 15",
+    "chapter_title": "Chowder",
+    "pdf_page_start": 46,
+    "pdf_page_end": 47
+  },
+  {
+    "index": 16,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 16",
+    "chapter_title": "The Ship",
+    "pdf_page_start": 48,
+    "pdf_page_end": 54
+  },
+  {
+    "index": 17,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 17",
+    "chapter_title": "The Ramadan",
+    "pdf_page_start": 55,
+    "pdf_page_end": 57
+  },
+  {
+    "index": 18,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 18",
+    "chapter_title": "His Mark",
+    "pdf_page_start": 58,
+    "pdf_page_end": 60
+  },
+  {
+    "index": 19,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 19",
+    "chapter_title": "The Prophet",
+    "pdf_page_start": 61,
+    "pdf_page_end": 62
+  },
+  {
+    "index": 20,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 20",
+    "chapter_title": "All Astir",
+    "pdf_page_start": 63,
+    "pdf_page_end": 64
+  },
+  {
+    "index": 21,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 21",
+    "chapter_title": "Going Aboard",
+    "pdf_page_start": 65,
+    "pdf_page_end": 67
+  },
+  {
+    "index": 22,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 22",
+    "chapter_title": "Merry Christmas",
+    "pdf_page_start": 68,
+    "pdf_page_end": 70
+  },
+  {
+    "index": 23,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 23",
+    "chapter_title": "The Lee Shore",
+    "pdf_page_start": 71,
+    "pdf_page_end": 71
+  },
+  {
+    "index": 24,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 24",
+    "chapter_title": "The Advocate",
+    "pdf_page_start": 72,
+    "pdf_page_end": 74
+  },
+  {
+    "index": 25,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 25",
+    "chapter_title": "Postscript",
+    "pdf_page_start": 75,
+    "pdf_page_end": 75
+  },
+  {
+    "index": 26,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 26",
+    "chapter_title": "Knights and Squires",
+    "pdf_page_start": 76,
+    "pdf_page_end": 77
+  },
+  {
+    "index": 27,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 27",
+    "chapter_title": "Knights and Squires",
+    "pdf_page_start": 78,
+    "pdf_page_end": 79
+  },
+  {
+    "index": 28,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 28",
+    "chapter_title": "Ahab",
+    "pdf_page_start": 80,
+    "pdf_page_end": 81
+  },
+  {
+    "index": 29,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 29",
+    "chapter_title": "Enter Ahab; to Him, Stubb",
+    "pdf_page_start": 82,
+    "pdf_page_end": 83
+  },
+  {
+    "index": 30,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 30",
+    "chapter_title": "The Pipe",
+    "pdf_page_start": 84,
+    "pdf_page_end": 84
+  },
+  {
+    "index": 31,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 31",
+    "chapter_title": "Queen Mab",
+    "pdf_page_start": 85,
+    "pdf_page_end": 85
+  },
+  {
+    "index": 32,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 32",
+    "chapter_title": "Cetology",
+    "pdf_page_start": 86,
+    "pdf_page_end": 91
+  },
+  {
+    "index": 33,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 33",
+    "chapter_title": "The Specksnyder",
+    "pdf_page_start": 92,
+    "pdf_page_end": 93
+  },
+  {
+    "index": 34,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 34",
+    "chapter_title": "The Cabin-Table",
+    "pdf_page_start": 94,
+    "pdf_page_end": 96
+  },
+  {
+    "index": 35,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 35",
+    "chapter_title": "The Mast-Head",
+    "pdf_page_start": 97,
+    "pdf_page_end": 99
+  },
+  {
+    "index": 36,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 36",
+    "chapter_title": "The Quarter-Deck",
+    "pdf_page_start": 100,
+    "pdf_page_end": 103
+  },
+  {
+    "index": 37,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 37",
+    "chapter_title": "Sunset",
+    "pdf_page_start": 104,
+    "pdf_page_end": 104
+  },
+  {
+    "index": 38,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 38",
+    "chapter_title": "Dusk",
+    "pdf_page_start": 105,
+    "pdf_page_end": 105
+  },
+  {
+    "index": 39,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 39",
+    "chapter_title": "First Night Watch",
+    "pdf_page_start": 106,
+    "pdf_page_end": 106
+  },
+  {
+    "index": 40,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 40",
+    "chapter_title": "Midnight, Forecastle",
+    "pdf_page_start": 107,
+    "pdf_page_end": 109
+  },
+  {
+    "index": 41,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 41",
+    "chapter_title": "Moby Dick",
+    "pdf_page_start": 110,
+    "pdf_page_end": 114
+  },
+  {
+    "index": 42,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 42",
+    "chapter_title": "The Whiteness of The Whale",
+    "pdf_page_start": 115,
+    "pdf_page_end": 119
+  },
+  {
+    "index": 43,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 43",
+    "chapter_title": "Hark!",
+    "pdf_page_start": 120,
+    "pdf_page_end": 120
+  },
+  {
+    "index": 44,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 44",
+    "chapter_title": "The Chart",
+    "pdf_page_start": 121,
+    "pdf_page_end": 123
+  },
+  {
+    "index": 45,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 45",
+    "chapter_title": "The Affidavit",
+    "pdf_page_start": 124,
+    "pdf_page_end": 127
+  },
+  {
+    "index": 46,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 46",
+    "chapter_title": "Surmises",
+    "pdf_page_start": 128,
+    "pdf_page_end": 129
+  },
+  {
+    "index": 47,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 47",
+    "chapter_title": "The Mat-Maker",
+    "pdf_page_start": 130,
+    "pdf_page_end": 131
+  },
+  {
+    "index": 48,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 48",
+    "chapter_title": "The First Lowering",
+    "pdf_page_start": 132,
+    "pdf_page_end": 136
+  },
+  {
+    "index": 49,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 49",
+    "chapter_title": "The Hyena",
+    "pdf_page_start": 137,
+    "pdf_page_end": 138
+  },
+  {
+    "index": 50,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 50",
+    "chapter_title": "Ahab’s Boat and Crew. Fedallah",
+    "pdf_page_start": 139,
+    "pdf_page_end": 140
+  },
+  {
+    "index": 51,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 51",
+    "chapter_title": "The Spirit-Spout",
+    "pdf_page_start": 141,
+    "pdf_page_end": 142
+  },
+  {
+    "index": 52,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 52",
+    "chapter_title": "The Albatross",
+    "pdf_page_start": 143,
+    "pdf_page_end": 143
+  },
+  {
+    "index": 53,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 53",
+    "chapter_title": "The Gam",
+    "pdf_page_start": 144,
+    "pdf_page_end": 145
+  },
+  {
+    "index": 54,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 54",
+    "chapter_title": "The Town-Ho’s Story",
+    "pdf_page_start": 146,
+    "pdf_page_end": 155
+  },
+  {
+    "index": 55,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 55",
+    "chapter_title": "Of the Monstrous Pictures of Whales",
+    "pdf_page_start": 156,
+    "pdf_page_end": 158
+  },
+  {
+    "index": 56,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 56",
+    "chapter_title": "Of the Less Erroneous Pictures of Whales,",
+    "pdf_page_start": 159,
+    "pdf_page_end": 160
+  },
+  {
+    "index": 57,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 57",
+    "chapter_title": "Of Whales in Paint; in Teeth; in Wood; in",
+    "pdf_page_start": 161,
+    "pdf_page_end": 162
+  },
+  {
+    "index": 58,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 58",
+    "chapter_title": "Brit",
+    "pdf_page_start": 163,
+    "pdf_page_end": 164
+  },
+  {
+    "index": 59,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 59",
+    "chapter_title": "Squid",
+    "pdf_page_start": 165,
+    "pdf_page_end": 166
+  },
+  {
+    "index": 60,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 60",
+    "chapter_title": "The Line",
+    "pdf_page_start": 167,
+    "pdf_page_end": 168
+  },
+  {
+    "index": 61,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 61",
+    "chapter_title": "Stubb Kills a Whale",
+    "pdf_page_start": 169,
+    "pdf_page_end": 171
+  },
+  {
+    "index": 62,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 62",
+    "chapter_title": "The Dart",
+    "pdf_page_start": 172,
+    "pdf_page_end": 172
+  },
+  {
+    "index": 63,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 63",
+    "chapter_title": "The Crotch",
+    "pdf_page_start": 173,
+    "pdf_page_end": 173
+  },
+  {
+    "index": 64,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 64",
+    "chapter_title": "Stubb’s Supper",
+    "pdf_page_start": 174,
+    "pdf_page_end": 178
+  },
+  {
+    "index": 65,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 65",
+    "chapter_title": "The Whale as a Dish",
+    "pdf_page_start": 179,
+    "pdf_page_end": 180
+  },
+  {
+    "index": 66,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 66",
+    "chapter_title": "The Shark Massacre",
+    "pdf_page_start": 181,
+    "pdf_page_end": 181
+  },
+  {
+    "index": 67,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 67",
+    "chapter_title": "Cutting In",
+    "pdf_page_start": 182,
+    "pdf_page_end": 182
+  },
+  {
+    "index": 68,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 68",
+    "chapter_title": "The Blanket",
+    "pdf_page_start": 183,
+    "pdf_page_end": 184
+  },
+  {
+    "index": 69,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 69",
+    "chapter_title": "The Funeral",
+    "pdf_page_start": 185,
+    "pdf_page_end": 185
+  },
+  {
+    "index": 70,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 70",
+    "chapter_title": "The Sphynx",
+    "pdf_page_start": 186,
+    "pdf_page_end": 187
+  },
+  {
+    "index": 71,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 71",
+    "chapter_title": "The Jeroboam’s Story",
+    "pdf_page_start": 188,
+    "pdf_page_end": 190
+  },
+  {
+    "index": 72,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 72",
+    "chapter_title": "The Monkey-Rope",
+    "pdf_page_start": 191,
+    "pdf_page_end": 193
+  },
+  {
+    "index": 73,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 73",
+    "chapter_title": "Stubb and Flask Kill a Right Whale; and",
+    "pdf_page_start": 194,
+    "pdf_page_end": 196
+  },
+  {
+    "index": 74,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 74",
+    "chapter_title": "The Sperm Whale’s Head—Contrasted",
+    "pdf_page_start": 197,
+    "pdf_page_end": 198
+  },
+  {
+    "index": 75,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 75",
+    "chapter_title": "The Right Whale’s Head—Contrasted",
+    "pdf_page_start": 199,
+    "pdf_page_end": 200
+  },
+  {
+    "index": 76,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 76",
+    "chapter_title": "The Battering-Ram",
+    "pdf_page_start": 201,
+    "pdf_page_end": 201
+  },
+  {
+    "index": 77,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 77",
+    "chapter_title": "The Great Heidelburgh Tun",
+    "pdf_page_start": 202,
+    "pdf_page_end": 202
+  },
+  {
+    "index": 78,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 78",
+    "chapter_title": "Cistern and Buckets",
+    "pdf_page_start": 203,
+    "pdf_page_end": 204
+  },
+  {
+    "index": 79,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 79",
+    "chapter_title": "The Prairie",
+    "pdf_page_start": 205,
+    "pdf_page_end": 206
+  },
+  {
+    "index": 80,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 80",
+    "chapter_title": "The Nut",
+    "pdf_page_start": 207,
+    "pdf_page_end": 208
+  },
+  {
+    "index": 81,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 81",
+    "chapter_title": "The Pequod Meets The Virgin",
+    "pdf_page_start": 209,
+    "pdf_page_end": 214
+  },
+  {
+    "index": 82,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 82",
+    "chapter_title": "The Honour and Glory of Whaling",
+    "pdf_page_start": 215,
+    "pdf_page_end": 216
+  },
+  {
+    "index": 83,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 83",
+    "chapter_title": "Jonah Historically Regarded",
+    "pdf_page_start": 217,
+    "pdf_page_end": 217
+  },
+  {
+    "index": 84,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 84",
+    "chapter_title": "Pitchpoling",
+    "pdf_page_start": 218,
+    "pdf_page_end": 218
+  },
+  {
+    "index": 85,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 85",
+    "chapter_title": "The Fountain",
+    "pdf_page_start": 219,
+    "pdf_page_end": 221
+  },
+  {
+    "index": 86,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 86",
+    "chapter_title": "The Tail",
+    "pdf_page_start": 222,
+    "pdf_page_end": 224
+  },
+  {
+    "index": 87,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 87",
+    "chapter_title": "The Grand Armada",
+    "pdf_page_start": 225,
+    "pdf_page_end": 230
+  },
+  {
+    "index": 88,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 88",
+    "chapter_title": "Schools and Schoolmasters",
+    "pdf_page_start": 231,
+    "pdf_page_end": 232
+  },
+  {
+    "index": 89,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 89",
+    "chapter_title": "Fast-Fish and Loose-Fish",
+    "pdf_page_start": 233,
+    "pdf_page_end": 234
+  },
+  {
+    "index": 90,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 90",
+    "chapter_title": "Heads or Tails",
+    "pdf_page_start": 235,
+    "pdf_page_end": 236
+  },
+  {
+    "index": 91,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 91",
+    "chapter_title": "The Pequod Meets The Rose-Bud",
+    "pdf_page_start": 237,
+    "pdf_page_end": 240
+  },
+  {
+    "index": 92,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 92",
+    "chapter_title": "Ambergris",
+    "pdf_page_start": 241,
+    "pdf_page_end": 242
+  },
+  {
+    "index": 93,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 93",
+    "chapter_title": "The Castaway",
+    "pdf_page_start": 243,
+    "pdf_page_end": 244
+  },
+  {
+    "index": 94,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 94",
+    "chapter_title": "A",
+    "pdf_page_start": 245,
+    "pdf_page_end": 246
+  },
+  {
+    "index": 95,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 95",
+    "chapter_title": "The Cassock",
+    "pdf_page_start": 247,
+    "pdf_page_end": 247
+  },
+  {
+    "index": 96,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 96",
+    "chapter_title": "The Try-Works",
+    "pdf_page_start": 248,
+    "pdf_page_end": 249
+  },
+  {
+    "index": 97,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 97",
+    "chapter_title": "The Lamp",
+    "pdf_page_start": 250,
+    "pdf_page_end": 250
+  },
+  {
+    "index": 98,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 98",
+    "chapter_title": "Stowing Down and Clearing Up",
+    "pdf_page_start": 251,
+    "pdf_page_end": 252
+  },
+  {
+    "index": 99,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 99",
+    "chapter_title": "The Doubloon",
+    "pdf_page_start": 253,
+    "pdf_page_end": 255
+  },
+  {
+    "index": 100,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 100",
+    "chapter_title": "Leg and Arm",
+    "pdf_page_start": 256,
+    "pdf_page_end": 259
+  },
+  {
+    "index": 101,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 101",
+    "chapter_title": "The Decanter",
+    "pdf_page_start": 260,
+    "pdf_page_end": 261
+  },
+  {
+    "index": 102,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 102",
+    "chapter_title": "A",
+    "pdf_page_start": 262,
+    "pdf_page_end": 263
+  },
+  {
+    "index": 103,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 103",
+    "chapter_title": "Measurement of The Whale’s Skeleton",
+    "pdf_page_start": 264,
+    "pdf_page_end": 265
+  },
+  {
+    "index": 104,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 104",
+    "chapter_title": "The Fossil Whale",
+    "pdf_page_start": 266,
+    "pdf_page_end": 267
+  },
+  {
+    "index": 105,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 105",
+    "chapter_title": "Does the Whale’s Magnitude Diminish?",
+    "pdf_page_start": 268,
+    "pdf_page_end": 269
+  },
+  {
+    "index": 106,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 106",
+    "chapter_title": "Ahab’s Leg",
+    "pdf_page_start": 270,
+    "pdf_page_end": 271
+  },
+  {
+    "index": 107,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 107",
+    "chapter_title": "The Carpenter",
+    "pdf_page_start": 272,
+    "pdf_page_end": 273
+  },
+  {
+    "index": 108,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 108",
+    "chapter_title": "Ahab and the Carpenter",
+    "pdf_page_start": 274,
+    "pdf_page_end": 276
+  },
+  {
+    "index": 109,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 109",
+    "chapter_title": "Ahab and Starbuck in the Cabin",
+    "pdf_page_start": 277,
+    "pdf_page_end": 278
+  },
+  {
+    "index": 110,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 110",
+    "chapter_title": "Queequeg in His Coffin",
+    "pdf_page_start": 279,
+    "pdf_page_end": 281
+  },
+  {
+    "index": 111,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 111",
+    "chapter_title": "The Pacific",
+    "pdf_page_start": 282,
+    "pdf_page_end": 282
+  },
+  {
+    "index": 112,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 112",
+    "chapter_title": "The Blacksmith",
+    "pdf_page_start": 283,
+    "pdf_page_end": 284
+  },
+  {
+    "index": 113,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 113",
+    "chapter_title": "The Forge",
+    "pdf_page_start": 285,
+    "pdf_page_end": 286
+  },
+  {
+    "index": 114,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 114",
+    "chapter_title": "The Gilder",
+    "pdf_page_start": 287,
+    "pdf_page_end": 287
+  },
+  {
+    "index": 115,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 115",
+    "chapter_title": "The Pequod Meets The Bachelor",
+    "pdf_page_start": 288,
+    "pdf_page_end": 289
+  },
+  {
+    "index": 116,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 116",
+    "chapter_title": "The Dying Whale",
+    "pdf_page_start": 290,
+    "pdf_page_end": 290
+  },
+  {
+    "index": 117,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 117",
+    "chapter_title": "The Whale Watch",
+    "pdf_page_start": 291,
+    "pdf_page_end": 291
+  },
+  {
+    "index": 118,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 118",
+    "chapter_title": "The Quadrant",
+    "pdf_page_start": 292,
+    "pdf_page_end": 293
+  },
+  {
+    "index": 119,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 119",
+    "chapter_title": "The Candles",
+    "pdf_page_start": 294,
+    "pdf_page_end": 297
+  },
+  {
+    "index": 120,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 120",
+    "chapter_title": "The Deck Towards the End of the First",
+    "pdf_page_start": 298,
+    "pdf_page_end": 298
+  },
+  {
+    "index": 121,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 121",
+    "chapter_title": "Midnight.—The Forecastle Bulwarks",
+    "pdf_page_start": 299,
+    "pdf_page_end": 299
+  },
+  {
+    "index": 122,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 122",
+    "chapter_title": "Midnight Aloft.—Thunder and",
+    "pdf_page_start": 300,
+    "pdf_page_end": 300
+  },
+  {
+    "index": 123,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 123",
+    "chapter_title": "The Musket",
+    "pdf_page_start": 301,
+    "pdf_page_end": 302
+  },
+  {
+    "index": 124,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 124",
+    "chapter_title": "The Needle",
+    "pdf_page_start": 303,
+    "pdf_page_end": 304
+  },
+  {
+    "index": 125,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 125",
+    "chapter_title": "The Log and Line",
+    "pdf_page_start": 305,
+    "pdf_page_end": 306
+  },
+  {
+    "index": 126,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 126",
+    "chapter_title": "The Life-Buoy",
+    "pdf_page_start": 307,
+    "pdf_page_end": 308
+  },
+  {
+    "index": 127,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 127",
+    "chapter_title": "The Deck",
+    "pdf_page_start": 309,
+    "pdf_page_end": 310
+  },
+  {
+    "index": 128,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 128",
+    "chapter_title": "The Pequod Meets The Rachel",
+    "pdf_page_start": 311,
+    "pdf_page_end": 312
+  },
+  {
+    "index": 129,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 129",
+    "chapter_title": "The Cabin",
+    "pdf_page_start": 313,
+    "pdf_page_end": 313
+  },
+  {
+    "index": 130,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 130",
+    "chapter_title": "The Hat",
+    "pdf_page_start": 314,
+    "pdf_page_end": 315
+  },
+  {
+    "index": 131,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 131",
+    "chapter_title": "The Pequod Meets The Delight",
+    "pdf_page_start": 316,
+    "pdf_page_end": 316
+  },
+  {
+    "index": 132,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 132",
+    "chapter_title": "The Symphony",
+    "pdf_page_start": 317,
+    "pdf_page_end": 318
+  },
+  {
+    "index": 133,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 133",
+    "chapter_title": "The Chase—First Day",
+    "pdf_page_start": 319,
+    "pdf_page_end": 323
+  },
+  {
+    "index": 134,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 134",
+    "chapter_title": "The Chase—Second Day",
+    "pdf_page_start": 324,
+    "pdf_page_end": 328
+  },
+  {
+    "index": 135,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Chapter 135",
+    "chapter_title": "The Chase.—Third Day",
+    "pdf_page_start": 329,
+    "pdf_page_end": 334
+  },
+  {
+    "index": 136,
+    "source_filename": "moby-dick.pdf",
+    "original_label": "Epilogue",
+    "chapter_title": "Epilogue",
+    "pdf_page_start": 335,
+    "pdf_page_end": 335
+  }
+]
