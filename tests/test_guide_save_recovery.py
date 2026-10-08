@@ -113,7 +113,7 @@ class _ParaphraseThenFixGuideAdapter:
                         "type": "function",
                         "function": {
                             "name": "search_passages",
-                            "arguments": json.dumps({"query": "frodo baggins"}),
+                            "arguments": json.dumps({"query": "ishmael queequeg"}),
                         },
                     }
                 ],

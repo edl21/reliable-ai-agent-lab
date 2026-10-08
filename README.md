@@ -345,3 +345,9 @@ and records page count and cleaned word count in `corpus/manifest.json`.
 - The first embedding-model load is slower because it populates a local cache.
 - The application is intended for local exploration, not an unauthenticated
   public deployment.
+
+## Licence
+
+The application source is available under the [MIT License](LICENSE). The
+public-domain corpus and its separately licensed cover are described in
+[Corpus and attribution](#corpus-and-attribution).

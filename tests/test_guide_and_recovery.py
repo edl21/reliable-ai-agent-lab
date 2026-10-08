@@ -37,7 +37,7 @@ class _EndWithoutSaveAdapter:
                         "type": "function",
                         "function": {
                             "name": "search_passages",
-                            "arguments": json.dumps({"query": "frodo"}),
+                            "arguments": json.dumps({"query": "ishmael"}),
                         },
                     }
                 ],

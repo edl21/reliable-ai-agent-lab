@@ -46,8 +46,8 @@ PAGES_JSONL: Path = CORPUS_DIR / "pages.jsonl"
 
 # Fraction of pages a short line must appear on to be treated as a
 # recurring header/footer. Tuned by inspection: proper narrative lines
-# don't recur across chapters, but "THE FELLOWSHIP OF THE RING" (running
-# head), publisher slugs, and bare page numbers repeat on many pages.
+# do not recur across chapters, while running heads, publisher slugs,
+# and bare page numbers commonly repeat across many pages.
 _HEADER_FOOTER_THRESHOLD: float = 0.15
 
 # A line shorter than this is a candidate for header/footer treatment

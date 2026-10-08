@@ -32,10 +32,10 @@ def _chunk(**overrides: Any) -> RetrievedChunk:
     base = dict(
         chunk_id="abcdef0123456789",
         chapter=1,
-        chapter_original_label="I",
-        chapter_title="A Long-expected Party",
+        chapter_original_label="Chapter 1",
+        chapter_title="Loomings",
         pdf_pages=[10, 11],
-        source_filename="fellowship.pdf",
+        source_filename="moby-dick.pdf",
         text="Ishmael decided to go to sea.",
         distance=0.1,
     )
@@ -263,7 +263,7 @@ class _ParaphraseThenFixAdapter:
         messages = kwargs.get("messages") or []
         evidence_ids: list[str] = []
         evidence_text = ""
-        evidence_filename = "fellowship.pdf"
+        evidence_filename = "moby-dick.pdf"
         evidence_chapter = 1
         evidence_pages = [1]
         for msg in messages:
